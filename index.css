@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+div:first-child ul{
+display: flex;
+justify-content: space-around;
+}
+div:first-child li:first-child{
+    list-style-image: url(./home-2502.png);
+}
+div:first-child li:nth-child(2){
+list-style-image: url(./information-6255.png);
+}
+div:first-child li:nth-child(3){
+    list-style-image: url(./black-shopping-cart-10933.png);
+}
+div:first-child li:nth-child(4){
+    list-style-image: url(./user-signup-3058.png);
+}
+section:first-child{
+    width: 60px;
+    height:60px;
+    background-color: rgb(188, 185, 185);
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 20px;
+}
+section:first-child a{
+    color: white; 
+}
+     section:nth-child(3){
+position: relative;
+width: 600px;
+height: 600px;
+background-color: rgb(180, 173, 173);
+}
+     section:nth-child(3) div:nth-of-type(1){
+width: 100px;
+height: 100px;
+position: absolute;
+background-color: aquamarine;
+right: 50%;
+bottom: 40%;
+}
+     section:nth-child(3) div:nth-of-type(2){
+width: 100px;
+height: 100px;
+position: absolute;
+background-color: rgb(21, 49, 209);
+right: 10px;
+top: 350px;
+}
+     section:nth-child(3) div:nth-of-type(3){
+width: 100px;
+height: 100px;
+position: absolute;
+background-color: rgb(186, 27, 178);
+right: 40px;
+bottom: 60px;
+}
+section:nth-child(4) div h1{
+position: sticky;
+background-color: brown;
+top: 0;
+}
